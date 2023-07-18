@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+body{
+    background-color: #F2F2F2; /* Use a hex code or a named color for better performance */
+     display: flex; 
+  
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+   
+}
+#container{
+    max-width: 700px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 25px 25px 130px 25px;
+}
+.inputtxt{
+    display: flex;
+   
+    color: hsl(0, 1%, 44%);
+    padding: 10px 10px 10px;
+    margin: 0px;
+    
+}
+
+.inputtxt div{
+    letter-spacing: 2px;
+    font-size: 10px;
+    margin-right: 20px;
+}
+.inputtxt label{
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 990;
+  
+    
+}
+.inputtxt input{
+    margin-top: 5px;
+    padding: 0px 12px;
+    height: 45px;
+    width: 95px;
+    color: hsl(0, 1%, 44%);
+    font-weight: bold;
+  
+    letter-spacing: 1.5px;
+
+    border-color:hsl(0, 0%, 86%) ;
+    border:1px solid hsl(0, 0%, 86%);
+    border-radius: 5px;
+    
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn button{
+    border-radius: 50%;
+  border: 0px;
+    background-color:  hsl(259, 100%, 65%);
+    height: 65px;
+    width: 65px;
+}
+.btn button:hover{
+    background-color: hsl(0, 0%, 8%);
+}
+.btn .line{
+    background-color:hsl(0, 0%, 94%) ;
+    height: 1px;
+    width: 400px;
+    
+}
+button svg{
+    height: 36px;
+    width: 32px;
+}
+
+.result{
+    margin-bottom: 15px;
+}
+
+.result h1{
+    margin: 0px;
+   font-style: italic;
+   font-size: 60px;
+   height: 70px;
+}
+
+.result span{
+  color: hsl(259, 100%, 65%);
+  letter-spacing: 9px;
+  font-size: 70px;
+}
+

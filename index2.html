@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Document</title> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Age calculator app</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <div id="container">
+        <div class="card">
+            <div class="input">
+                <form class="inputtxt">
+                    <div class="day">
+                        <label for="DD">Day</label><br>
+                        <input type="number" id="DD" name="DD" placeholder="DD" min="1" max="31"><br>
+                        <!-- <div class="error-message">this is a required field.</div> -->
+                      </div>
+                      <div class="month">
+                        <label for="MM">Month</label><br>
+                        <input type="number" id="MM" name="MM" placeholder="MM" min="01" max="12"><br>
+                        <!-- <div class="error-message">this is a required field.</div> -->
+                      </div>
+                      <div class="Year">
+                        <label for="YYYY">Year</label><br>
+                        <input type="number" id="YYYY" name="YYYY" placeholder="YYYY" min="1000" max="9999"><br>
+                        <!-- <div class="error-message">this is a required field.</div> -->
+                      </div>
+                </form>
+                <div class="btn">
+                    <div class="line"></div>
+                   
+                    <button type="button"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+                </div>
+            </div>
+            <div class="result">
+                <h1><span>--</span>years</h1>
+                <h1><span>--</span>months</h1>
+                <h1><span>--</span>days</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
